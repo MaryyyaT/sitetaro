@@ -1,0 +1,36 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.header__main{
+    display: flex;
+}
+.header__logo{
+    width: 100px;
+    height: 100px;
+}
+.header__ring{
+    width: 30px;
+    height: 30px;
+}
+.header__ul{
+    display: flex;
+
+}
+.header__link{
+    color: white;
+    font-size: 25px;
+}
