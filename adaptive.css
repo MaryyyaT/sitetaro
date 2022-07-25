@@ -18,6 +18,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 350px;
+        height: 300px;
     }
     .hero__title{
         font-size: 28px;
@@ -32,9 +33,12 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .hero__info{
+        width: 150px;
+    }
 
     .about{
-        height: 810px;
+        height: 890px;
     }
     .about__box{
         width: 330px;
@@ -47,6 +51,9 @@
     }
     .about__inner{
         width: 350px;
+    }
+    .about__txt--title{
+        display: none;
     }
 
     .services{
@@ -64,6 +71,9 @@
     }
 
 
+    .footer{
+        height: 140px;
+    }
     #window1,#window2,#window3,#window4,#window5 {
         width: 320px;
         height: 780px;
