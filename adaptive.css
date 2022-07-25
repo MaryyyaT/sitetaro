@@ -1,0 +1,75 @@
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 768px){
+    .container, .header, .hero, .about, .services, .reviews, .footer{
+        width: 350px;
+    }
+    .hero{
+        height: 740px;
+    }
+    .nav{
+        display: none;
+    }
+    .hero__imgg{
+        margin-bottom: 10px;
+        width: 300px;
+        height: 270px;
+    }
+    .hero__inner{
+        display: flex;
+        flex-wrap: wrap;
+        width: 350px;
+    }
+    .hero__title{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    .hero__text{
+        display: none;
+    }
+    .hero__box{
+        width: 350px;
+        height: 230px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about{
+        height: 810px;
+    }
+    .about__box{
+        width: 330px;
+    }
+    .about__info{
+        width: 120px;
+    }
+    .about__ul{
+        width: 340px;
+    }
+    .about__inner{
+        width: 350px;
+    }
+
+    .services{
+        height: 1740px;
+    }
+    .services__inner{
+        width: 350px;
+    }
+
+    .reviews{
+        height: 1300px;
+    }
+    .reviews__inner{
+    width: 350px;
+    }
+
+
+    #window1,#window2,#window3,#window4,#window5 {
+        width: 320px;
+        height: 780px;
+    }
+    #scrollbutton{
+        display: none;
+    }
+    }
+        /**/
