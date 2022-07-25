@@ -5,7 +5,7 @@
     }
     body{
         width: 350px;
-        
+
     }
     .hero{
         height: 740px;
@@ -27,6 +27,11 @@
     .hero__title{
         font-size: 28px;
         margin-left: 10px;
+        background: #000000;
+        background: linear-gradient(to left, #e2edff 0%, #5c6aa0 55%, #01172E 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .hero__text{
         display: none;
@@ -39,6 +44,10 @@
     }
     .hero__info{
         width: 150px;
+    }
+
+    .main__txt{
+        width: 350px;
     }
 
     .about{
