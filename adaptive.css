@@ -89,7 +89,7 @@
     }
     #window1,#window2,#window3,#window4,#window5 {
         width: 320px;
-        height: 780px;
+        height: 840px;
     }
     #scrollbutton{
         display: none;
