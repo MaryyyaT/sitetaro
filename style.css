@@ -214,6 +214,9 @@ body{
     margin-top: 2px;
     text-shadow: #00000023 0px 1px 1px;
 }
+.instagram{
+    display: none;
+}
 .hero__text--color{
     background: #000000;
     background: linear-gradient(to left, #fcfdff 0%, #FFFFFF 55%, #f5fcff 100%);
